@@ -1,0 +1,22 @@
+.recipe-card {
+    position: relative;
+    border: solid black 1pt;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.recipe-card-image {
+    position: absolute;
+    width: 300px;
+}
+
+.recipe-card-details {
+    position: relative;
+    left: 300px;
+    margin-left: 10px;
+}
+
+#recipe-card-ingedients {
+    width: 75%;
+    column-count: 3;
+}

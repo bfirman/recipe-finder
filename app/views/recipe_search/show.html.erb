@@ -1,0 +1,12 @@
+<h1>Results</h1>
+
+<div>
+    <% unless @recipes.empty? %>
+        <%= render @recipes %>
+        <%= will_paginate @recipes %>
+    <% else %>
+        <div>
+            <h2 id='no-results'>No Matching Results</h2>
+        </div>
+    <% end %>
+</div>
