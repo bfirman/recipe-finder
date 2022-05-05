@@ -10,6 +10,7 @@ This application will display a list of recipes that include the ingredients you
 
 - Ensure MySQL is installed along with library `libmysqlclient-dev`
 - Clone the repository
+- `cd` into project
 - Run: `bundle install`
 - Run: `bundle exec rails db:seed`
 
